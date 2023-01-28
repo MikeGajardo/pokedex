@@ -39,6 +39,9 @@ function App() {
         </div>
         </div>
         <div className="controls">
+        <div className="dpad">
+        <img src="https://png2.cleanpng.com/sh/bf886d854416a56c1f038691d1666776/L0KzQYm3VsEyN6l4jJH0aYP2gLBuTgdqcV5vhAt8dHnme37ugf1mNZR0huZ7b3zvdcP6TfJtaZRwRehyZHXyPbjojfUueJ1mkeV9YYTsf7A0hghxbaNufdDsZT24coLshME2OJU7UapvMj62QIm3Vsk1O2I6SqoCNEa2QoGBV8kveJ9s/kisspng-wii-joystick-game-controllers-black-video-game-playstation-experience-5b1ed150d698f2.308069431528746320879.png" />
+        </div>
         </div>      
       </div>
   );

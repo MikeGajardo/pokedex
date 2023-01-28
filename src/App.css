@@ -38,9 +38,11 @@
   margin: 120px 0 0 20px;
 }
 
-.pokesearch {
-  margin-top: 20px;
+.dpad img{
+  height: 200px;
+  width: 200px;
   text-align: center;
+  padding: 20px 0 0 40px;
 }
 
 @keyframes App-logo-spin {
