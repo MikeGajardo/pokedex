@@ -5,11 +5,23 @@ import './App.css';
 
 function App() {
   const [pokemon, setPokemon] = useState('')
-  const getPokemon = () => {
-    axios.get('https://pokeapi.co/api/v2/pokemon/1')
+  const [pokemon2, setPokemon2] = useState('')
+  const rando = () => {
+    return Math.floor(Math.random() * 600)
+  }
+  const url = 'https://pokeapi.co/api/v2/pokemon/'
+  const getPokemon1 = () => {
+    axios.get(url + rando())
     .then(res => {
-      console.log(res.data.sprites.front_default)
       setPokemon(res.data.sprites.front_default)
+    }).catch(err => {
+      console.log(err)
+    })
+  }
+  const getPokemon2 = () => {
+    axios.get(url + rando())
+    .then(res => {
+      setPokemon2(res.data.sprites.back_default)
     }).catch(err => {
       console.log(err)
     })
@@ -18,12 +30,15 @@ function App() {
       <div className="gameboy">
         <div className="display">
         <div className="screen">
-          <div className="pokeone" onClick={getPokemon}></div>
-          <div className="poketwo"></div>
+          <div className="pokeone" onClick={getPokemon1}>
+            <img src={pokemon}/>
+          </div>
+          <div className="poketwo" onClick={getPokemon2}>
+          <img src={pokemon2}/>
+          </div>
         </div>
         </div>
-        <div className="pokesearch">
-          <input type="text"></input>
+        <div className="controls">
         </div>      
       </div>
   );
