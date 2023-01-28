@@ -11,10 +11,10 @@
 }
 
 .screen {
-  height: 250px;
+  height: 230px;
   width: 400px;
   margin: 0 auto 0 auto;
-  background-color: grey;
+  background-image: url("http://fc05.deviantart.net/fs71/f/2013/098/e/7/pokemon_x_y_battle_scene_by_jenske05-d5ynr9c.png");
   border-radius: 10px;
 }
 
@@ -25,17 +25,15 @@
 .pokeone {
   height: 100px;
   width: 100px;
-  background-color: yellow;
   float: right;
-  margin: 20px 20px 0 0;
+  margin: 50px 40px 0 0;
 }
 
 .poketwo {
   height: 100px;
   width: 100px;
-  background-color: blue;
   float: left;
-  margin: 120px 0 0 20px;
+  margin: 120px 0 0 50px;
 }
 
 .dpad img{
