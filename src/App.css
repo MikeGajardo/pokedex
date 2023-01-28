@@ -44,6 +44,23 @@
   margin: 0 auto 0 auto;
   background-color: grey;
   border-radius: 10px;
+  opacity: 10px;
+}
+
+.pokeone {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  float: right;
+  margin: 20px 20px 0 0;
+}
+
+.poketwo {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  float: left;
+  margin: 120px 0 0 20px;
 }
 
 @keyframes App-logo-spin {

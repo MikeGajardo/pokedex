@@ -5,11 +5,12 @@ function App() {
   return (
     <div className="App">
       <div className="gameboy">
-          
         <div className="screen">
+          <div className="pokeone"></div>
+          <div className="poketwo"></div>
+          </div>
         </div>
       </div>
-    </div>
   );
 }
 
