@@ -36,12 +36,50 @@
   margin: 130px 0 0 60px;
 }
 
+.controls {
+  display: flex;
+}
+
 .dpad img{
   height: 200px;
   width: 200px;
   text-align: center;
   padding: 20px 0 0 40px;
 }
+
+.button-area {
+  margin-left: 50px;
+}
+
+.button1 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 55px 0 0 50px;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.button1 p {
+  padding-top: 10px;
+}
+
+.button2 {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.button2 p {
+  padding-top: 10px;
+}
+
 
 @keyframes App-logo-spin {
   from {
