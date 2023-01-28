@@ -4,7 +4,7 @@
 
 .gameboy {
   height: 550px;
-  width: 500px;
+  width: 475px;
   margin: 20px auto 0 auto;
   background-color: red;
   border-radius: 10px;
@@ -26,14 +26,14 @@
   height: 100px;
   width: 100px;
   float: right;
-  margin: 50px 40px 0 0;
+  margin: 55px 40px 0 0;
 }
 
 .poketwo {
   height: 100px;
   width: 100px;
   float: left;
-  margin: 120px 0 0 50px;
+  margin: 130px 0 0 60px;
 }
 
 .dpad img{
