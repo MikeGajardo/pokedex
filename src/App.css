@@ -65,6 +65,7 @@
 
 .button1 p {
   padding-top: 10px;
+  user-select: none;
 }
 
 .button2 {
@@ -79,6 +80,7 @@
 
 .button2 p {
   padding-top: 10px;
+  user-select: none;
 }
 
 
