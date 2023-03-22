@@ -27,6 +27,8 @@ function App() {
     })
   }
   return (
+      <div>
+        <div className="App"><p>Press A & B to Toggle Through Pokemon Battles</p></div>
       <div className="gameboy">
         <div className="display">
         <div className="screen">
@@ -51,6 +53,7 @@ function App() {
             </div>
           </div>
         </div>      
+      </div>
       </div>
   );
 }
